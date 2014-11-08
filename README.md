@@ -1,5 +1,7 @@
 # lolking-lookup
 
+[![Build Status][travis-svg]][travis]
+
 Look up a summoner on Lolking's leaderboard.
 
 ## Example
@@ -79,3 +81,7 @@ var lookup = require('lolking-lookup');
 Calls `callback(error, data)`, wherein `error` is any _Error_ encountered and
 `data` is an _Object_ containing information from Lolking's leaderboard on
 _String_ `summoner` in _String_ region.
+
+
+   [travis]: https://travis-ci.org/KenanY/lolking-lookup
+   [travis-svg]: https://img.shields.io/travis/KenanY/lolking-lookup.svg
