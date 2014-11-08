@@ -1,6 +1,7 @@
 # lolking-lookup
 
 [![Build Status][travis-svg]][travis]
+[![Dependency Status][gemnasium-svg]][gemnasium]
 
 Look up a summoner on Lolking's leaderboard.
 
@@ -85,3 +86,5 @@ _String_ `summoner` in _String_ region.
 
    [travis]: https://travis-ci.org/KenanY/lolking-lookup
    [travis-svg]: https://img.shields.io/travis/KenanY/lolking-lookup.svg
+   [gemnasium]: https://gemnasium.com/KenanY/lolking-lookup
+   [gemnasium-svg]: https://img.shields.io/gemnasium/KenanY/lolking-lookup.svg
