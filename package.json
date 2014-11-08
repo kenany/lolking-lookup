@@ -1,0 +1,31 @@
+{
+  "name": "lolking-lookup",
+  "version": "0.0.0",
+  "description": "Look up a summoner on Lolking's leaderboard",
+  "keywords": [
+    "league of legends"
+  ],
+  "repository": "KenanY/lolking-lookup",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "dependencies": {
+    "jsonist": "^0.1.1",
+    "lodash.isfunction": "^2.4.1",
+    "lolking-leaderboard": "^1.0.0"
+  },
+  "devDependencies": {
+    "lodash.isplainobject": "^2.4.1",
+    "tape": "^3.0.0"
+  }
+}
