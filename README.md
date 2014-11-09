@@ -3,7 +3,7 @@
 [![Build Status][travis-svg]][travis]
 [![Dependency Status][gemnasium-svg]][gemnasium]
 
-Look up a summoner on Lolking's leaderboard.
+Look up a summoner on LolKing's leaderboard.
 
 ## Example
 
@@ -80,7 +80,7 @@ var lookup = require('lolking-lookup');
 ### `lookup([region='na'], summoner, callback)`
 
 Calls `callback(error, data)`, wherein `error` is any _Error_ encountered and
-`data` is an _Object_ containing information from Lolking's leaderboard on
+`data` is an _Object_ containing information from LolKing's leaderboard on
 _String_ `summoner` in _String_ region.
 
 
